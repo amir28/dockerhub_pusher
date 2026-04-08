@@ -42,9 +42,9 @@
   source: ghcr.io/fmaclen/hollama:latest
   dest: docker.io/ssakm
 
-- name: Turn server
-  source: ghcr.io/mycrl/turn-server:latest
-  dest: docker.io/ssakm
+# - name: Turn server
+#   source: ghcr.io/mycrl/turn-server:latest
+#   dest: docker.io/ssakm
 
 - name: Pairdrop
   source: ghcr.io/schlagmichdoch/pairdrop:latest
