@@ -1,51 +1,51 @@
 - name: 3XUI
   source: ghcr.io/mhsanaei/3x-ui:latest
-  dest: docker.io/ssakm
+  dest: docker.io/ssakm/3x-ui:latest
   
 - name: Strfry
-  source: ghcr.io/hoytech/strfry
-  dest: docker.io/ssakm
+  source: ghcr.io/hoytech/strfry:latest
+  dest: docker.io/ssakm/strfry:latest
 
 - name: Jq
   source: ghcr.io/jqlang/jq:latest
-  dest: docker.io/ssakm
+  dest: docker.io/ssakm/jq:latest
 
 - name: TeleMT
   source: ghcr.io/telemt/telemt:latest
-  dest: docker.io/ssakm
+  dest: docker.io/ssakm/telemt:latest
 
 - name: TeleMT Panel
   source: ghcr.io/amirotin/telemt_panel:latest
-  dest: docker.io/ssakm
+  dest: docker.io/ssakm/telemt_panel:latest
 
 - name: ergo
   source: ghcr.io/ergochat/ergo:stable
-  dest: docker.io/ssakm
+  dest: docker.io/ssakm/ergo:stable
 
 - name: rssnotes
   source: ghcr.io/trinidz/rssnotes:latest
-  dest: docker.io/ssakm
+  dest: docker.io/ssakm/rssnotes:latest
 
 - name: Zooid
-  source: ghcr.io/coracle-social/zooid
-  dest: docker.io/ssakm
+  source: ghcr.io/coracle-social/zooid:latest
+  dest: docker.io/ssakm/zooid:latest
 
 - name: Flotilla
   source: ghcr.io/coracle-social/flotilla:latest
-  dest: docker.io/ssakm
+  dest: docker.io/ssakm/flotilla:latest
 
 - name: Gitea Mirror
   source: ghcr.io/raylabshq/gitea-mirror:latest
-  dest: docker.io/ssakm
+  dest: docker.io/ssakm/gitea-mirror:latest
 
 - name: Hollama
   source: ghcr.io/fmaclen/hollama:latest
-  dest: docker.io/ssakm
+  dest: docker.io/ssakm/hollama:latest
 
 - name: Turn server
   source: ghcr.io/mycrl/turn-server:latest
-  dest: docker.io/ssakm
+  dest: docker.io/ssakm/turn-server:latest
 
 - name: Pairdrop
   source: ghcr.io/schlagmichdoch/pairdrop:latest
-  dest: docker.io/ssakm
+  dest: docker.io/ssakm/pairdrop:latest
