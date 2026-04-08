@@ -1,0 +1,51 @@
+- name: 3XUI
+  source: ghcr.io/mhsanaei/3x-ui:latest
+  dest: docker.io/ssakm
+  
+- name: Strfry
+  source: ghcr.io/hoytech/strfry
+  dest: docker.io/ssakm
+
+- name: Jq
+  source: ghcr.io/jqlang/jq:latest
+  dest: docker.io/ssakm
+
+- name: TeleMT
+  source: ghcr.io/telemt/telemt:latest
+  dest: docker.io/ssakm
+
+- name: TeleMT Panel
+  source: ghcr.io/amirotin/telemt_panel:latest
+  dest: docker.io/ssakm
+
+- name: ergo
+  source: ghcr.io/ergochat/ergo:stable
+  dest: docker.io/ssakm
+
+- name: rssnotes
+  source: ghcr.io/trinidz/rssnotes:latest
+  dest: docker.io/ssakm
+
+- name: Zooid
+  source: ghcr.io/coracle-social/zooid
+  dest: docker.io/ssakm
+
+- name: Flotilla
+  source: ghcr.io/coracle-social/flotilla:latest
+  dest: docker.io/ssakm
+
+- name: Gitea Mirror
+  source: ghcr.io/raylabshq/gitea-mirror:latest
+  dest: docker.io/ssakm
+
+- name: Hollama
+  source: ghcr.io/fmaclen/hollama:latest
+  dest: docker.io/ssakm
+
+- name: Turn server
+  source: ghcr.io/mycrl/turn-server:latest
+  dest: docker.io/ssakm
+
+- name: Pairdrop
+  source: ghcr.io/schlagmichdoch/pairdrop:latest
+  dest: docker.io/ssakm
