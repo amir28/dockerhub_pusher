@@ -1,4 +1,4 @@
-name: Build and Push Docker Image from URLs
+name: Image from File URLs
 
 on:
   workflow_dispatch:
