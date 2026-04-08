@@ -38,7 +38,7 @@ jobs:
           for url in "${URLS[@]}"; do
             url=$(echo "$url" | xargs)  # trim whitespace
             echo "Downloading: $url"
-            wget -P downloads "$url" || curl -o "downloads/$(basename "$url")" "$url"
+            wget --content-disposition -P downloads "$url" || curl -o "downloads/$(basename "$url")" "$url"
             echo "$url" | tee -a "URLs.list"
           done
       
