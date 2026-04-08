@@ -49,3 +49,10 @@
 - name: Pairdrop
   source: ghcr.io/schlagmichdoch/pairdrop:latest
   dest: docker.io/ssakm/pairdrop:latest
+
+- name: Jumble
+  source: ghcr.io/aleerezaa/jumble:master
+  dest: docker.io/ssakm/jumble:master
+- name: Jumble Proxy Server
+  source: ghcr.io/danvergara/jumble-proxy-server:latest
+  dest: docker.io/ssakm/jumble-proxy-server:latest
