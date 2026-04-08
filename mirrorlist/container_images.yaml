@@ -60,3 +60,8 @@
 - name: Hollama
   source: ghcr.io/fmaclen/hollama:latest
   dest: docker.io/ssakm/hollama:latest
+
+
+- name: VSCode Web Standalone
+  source: ghcr.io/aleerezaa/vscode-web-standalone-container:stable
+  dest: docker.io/ssakm/vscode-web-standalone-container:stable
