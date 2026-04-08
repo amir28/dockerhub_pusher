@@ -44,5 +44,5 @@ jobs:
             -r "$dest" \
             -v \
             -- \
-              "$source""
+              "$source"
           done
