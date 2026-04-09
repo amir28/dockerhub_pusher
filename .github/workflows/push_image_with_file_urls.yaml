@@ -37,7 +37,7 @@ jobs:
           IFS=',' read -ra URLS <<< "${{ github.event.inputs.urls }}"
           for url in "${URLS[@]}"; do
             url=$(echo "$url" | xargs)  # trim whitespace
-            if [[ "$url" == *.git ]; then
+            if [[ "$url" == *.git ]]; then
               name="$(echo "$url" | sed -E -e 's#[:/]#/#g' -e 's#.*//##')"
               echo "Cloning $url to downloads/${name//\//__}..."
               git clone --mirror "$url" "downloads/${name//\//__}"
