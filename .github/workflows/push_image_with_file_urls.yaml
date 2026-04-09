@@ -37,8 +37,14 @@ jobs:
           IFS=',' read -ra URLS <<< "${{ github.event.inputs.urls }}"
           for url in "${URLS[@]}"; do
             url=$(echo "$url" | xargs)  # trim whitespace
-            echo "Downloading: $url"
-            wget --content-disposition -P downloads "$url" || curl -o "downloads/$(basename "$url")" "$url"
+            if [[ "$url" == *.git ]; then
+              name="$(echo "$url" | sed -E -e 's#[:/]#/#g' -e 's#.*//##')"
+              echo "Cloning $url to downloads/${name//\//__}..."
+              git clone --mirror "$url" "downloads/${name//\//__}"
+            else
+              echo "Downloading: $url"
+              wget --content-disposition -P downloads "$url" || curl -o "downloads/$(basename "$url")" "$url"
+            fi
             echo "$url" | tee -a "URLs.list"
           done
       
