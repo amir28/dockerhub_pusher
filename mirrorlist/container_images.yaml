@@ -61,7 +61,13 @@
   source: ghcr.io/fmaclen/hollama:latest
   dest: docker.io/ssakm/hollama:latest
 
-
 - name: VSCode Web Standalone
   source: ghcr.io/aleerezaa/vscode-web-standalone-container:stable
   dest: docker.io/ssakm/vscode-web-standalone-container:stable
+
+- name: PicoClaw
+  source: ghcr.io/sipeed/picoclaw:latest
+  dest: docker.io/ssakm/picoclaw:latest
+- name: PicoClaw Nightly
+  source: ghcr.io/sipeed/picoclaw:nightly
+  dest: docker.io/ssakm/picoclaw:nightly
