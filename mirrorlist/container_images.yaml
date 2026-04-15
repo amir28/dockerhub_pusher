@@ -65,9 +65,13 @@
   source: ghcr.io/aleerezaa/vscode-web-standalone-container:stable
   dest: docker.io/ssakm/vscode-web-standalone-container:stable
 
-- name: PicoClaw
-  source: ghcr.io/sipeed/picoclaw:latest
-  dest: docker.io/ssakm/picoclaw:latest
-- name: PicoClaw Nightly
-  source: ghcr.io/sipeed/picoclaw:nightly
-  dest: docker.io/ssakm/picoclaw:nightly
+# - name: PicoClaw
+#   source: ghcr.io/sipeed/picoclaw:latest
+#   dest: docker.io/ssakm/picoclaw:latest
+# - name: PicoClaw Nightly
+#   source: ghcr.io/sipeed/picoclaw:nightly
+#   dest: docker.io/ssakm/picoclaw:nightly
+
+- name: SNI Spoofing go
+  source: ghcr.io/aleskxyz/sni-spoofing-go:latest
+  dest: docker.io/ssakm/sni-spoofing-go:latest
