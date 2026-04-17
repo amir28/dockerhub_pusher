@@ -75,3 +75,7 @@
 - name: SNI Spoofing go
   source: ghcr.io/aleskxyz/sni-spoofing-go:latest
   dest: docker.io/ssakm/sni-spoofing-go:latest
+
+- name: SNI Spoofing rust
+  source: ghcr.io/amir28/sni-spoofing-rust:main
+  dest: docker.io/ssakm/sni-spoofing-rust:main
