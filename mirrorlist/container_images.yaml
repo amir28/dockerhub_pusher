@@ -77,5 +77,23 @@
   dest: docker.io/ssakm/sni-spoofing-go:latest
 
 - name: SNI Spoofing rust
-  source: ghcr.io/amir28/sni-spoofing-rust:main
-  dest: docker.io/ssakm/sni-spoofing-rust:main
+  source: ghcr.io/therealaleph/sni-spoofing-rust:latest
+  dest: docker.io/ssakm/sni-spoofing-rust:latest
+
+- name: IPFS Helia HTTP Gateway
+  source: ghcr.io/ipfs/helia-http-gateway:latest
+  dest: docker.io/ssakm/helia-http-gateway:latest
+
+- name: IPFS Rainbow HTTP Gateway
+  source: ghcr.io/ipfs/rainbow:main-latest
+  dest: docker.io/ssakm/rainbow:main-latest
+- name: IPFS Rainbow HTTP Gateway
+  source: ghcr.io/ipfs/rainbow:latest
+  dest: docker.io/ssakm/rainbow:latest
+
+- name: IPFS Someguy Delegated Routing V1 server 
+  source: ghcr.io/ipfs/rainbow:main-latest
+  dest: docker.io/ssakm/rainbow:main-latest
+- name: IPFS Someguy Delegated Routing V1 server
+  source: ghcr.io/ipfs/rainbow:latest
+  dest: docker.io/ssakm/rainbow:latest
