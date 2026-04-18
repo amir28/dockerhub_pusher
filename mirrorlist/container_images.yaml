@@ -80,6 +80,7 @@
   source: ghcr.io/therealaleph/sni-spoofing-rust:latest
   dest: docker.io/ssakm/sni-spoofing-rust:latest
 
+# Skipped kuba because "docker.io/ipfs/kubo" already exists
 - name: IPFS Helia HTTP Gateway
   source: ghcr.io/ipfs/helia-http-gateway:latest
   dest: docker.io/ssakm/helia-http-gateway:latest
