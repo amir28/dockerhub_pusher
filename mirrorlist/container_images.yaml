@@ -98,3 +98,7 @@
 - name: IPFS Someguy Delegated Routing V1 server
   source: ghcr.io/ipfs/rainbow:latest
   dest: docker.io/ssakm/rainbow:latest
+
+- name: Fortivpn to SOCKS5
+  source: ghcr.io/minlaxz/fortivpn-to-socks5:main
+  dest: docker.io/ssakm/fortivpn-to-socks5:main
